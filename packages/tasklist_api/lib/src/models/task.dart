@@ -1,1 +1,3 @@
-class Task extends Equatable {}
+//import 'package:equatable/equatable.dart';
+
+class Task {}
