@@ -2,6 +2,13 @@ import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+class TaskListCounterCubit extends Cubit<int> {
+  TaskListCounterCubit() : super(0);
+
+// Count every time a task is completed
+  void increment() => emit(state + 1);
+}
+
 class TaskListCubit extends Cubit<String> {
   TaskListCubit() : super('No tasks yet!');
 
