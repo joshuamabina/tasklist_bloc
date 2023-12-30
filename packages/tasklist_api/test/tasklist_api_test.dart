@@ -1,16 +1,22 @@
+import 'dart:async';
 import 'package:tasklist_api/tasklist_api.dart';
 import 'package:test/test.dart';
 
+
+class TestTaskListApi extends TaskListApi {
+  Stream<List<Task>> getTasks() {
+    return StreamController<List<Task>>().stream;
+  } 
+}
+
 void main() {
   group('Task List Api', () {
-    final taskListApi = TaskListApi();
+      setUp(() {
+          // Additional setup goes here.
+          });
 
-    setUp(() {
-      // Additional setup goes here.
-    });
-
-    test('Can get all tasks', () {
-      expect(taskListApi.getTasks(), equals([]));
-    });
-  });
+      test('Can be created', () {
+          expect(TestTaskListApi.new, returnsNormally);
+          });
+      });
 }
