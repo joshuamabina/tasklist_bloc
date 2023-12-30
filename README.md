@@ -29,7 +29,6 @@ Ideas, issues, note, and pending:
 - Capture `createdAt`, `updatedAt`, `completedAt`, `dueAt`
 - Capture subtasks
 - Material3 theming
-- Sub-tasks
 
 ## Getting Started with Flutter
 
