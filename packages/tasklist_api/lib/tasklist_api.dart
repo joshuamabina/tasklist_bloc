@@ -3,6 +3,6 @@
 /// More dartdocs go here.
 library;
 
-export 'src/tasklist_api_base.dart';
+export 'src/tasklist_api.dart';
 
 // TODO: Export any libraries intended for clients of this package.
