@@ -2,6 +2,8 @@
 
 A basic introduction to state management in flutter apps using BLoC (Business Logic Component) design pattern.
 
+See inspiration: https://ticktick.com
+
 ## All Features
 
 Completed:
