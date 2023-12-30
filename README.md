@@ -10,7 +10,7 @@ Current task: Using BLoC architecture to split the codebase into smaller more ma
 
 Sub tasks:
 
-- [ ] LocalStorageApi: implements `TaskListApi` using `shared_preferences` to allow storing and retrieval of tasks from mobile local storage.
+- [-] LocalStorageApi: implements `TaskListApi` using `shared_preferences` to allow storing and retrieval of tasks from mobile local storage.
 - [ ] Domain Layer: Create a `TaskListRepository` 
 - [ ] Feature Layer: Cleanup existing UI code, removing `setState()` implementations and whatnot.
 
