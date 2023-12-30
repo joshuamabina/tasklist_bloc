@@ -1,3 +1,7 @@
 //import 'package:equatable/equatable.dart';
 
-class Task {}
+class Task {
+  final String title;
+
+  Task({ required this.title });
+}

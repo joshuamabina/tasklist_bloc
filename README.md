@@ -4,7 +4,15 @@ A basic introduction to state management in flutter apps using BLoC (Business Lo
 
 See inspiration: https://ticktick.com
 
-## All Features
+## Roadmap
+
+Current task: Using BLoC architecture to split the codebase into smaller more manageable units of code - `feature -> domain -> data`.
+
+Sub tasks:
+
+- [ ] LocalStorageApi: implements `TaskListApi` using `shared_preferences` to allow storing and retrieval of tasks from mobile local storage.
+- [ ] Domain Layer: Create a `TaskListRepository` 
+- [ ] Feature Layer: Cleanup existing UI code, removing `setState()` implementations and whatnot.
 
 Completed:
 
@@ -13,7 +21,7 @@ Completed:
 - Mark task as complete
 - Add task description
 
-Pending:
+Ideas, issues, note, and pending:
 
 - List all completed tasks
 - Clear completed tasks
@@ -21,6 +29,7 @@ Pending:
 - Capture `createdAt`, `updatedAt`, `completedAt`, `dueAt`
 - Capture subtasks
 - Material3 theming
+- Sub-tasks
 
 ## Getting Started with Flutter
 
