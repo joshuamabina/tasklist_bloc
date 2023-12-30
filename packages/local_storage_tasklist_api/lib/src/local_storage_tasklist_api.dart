@@ -1,6 +1,8 @@
-// TODO: Put public facing types in this file.
+import 'dart:async';
+import 'package:tasklist_api/tasklist_api.dart';
 
-/// Checks if you are awesome. Spoiler: you are.
-class Awesome {
-  bool get isAwesome => true;
+class LocalStorageTaskListApi extends TaskListApi {
+  Stream<List<Task>> getTasks() {
+    return StreamController<List<Task>>().stream;
+  }
 }
