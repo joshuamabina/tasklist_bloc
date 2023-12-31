@@ -12,7 +12,9 @@ Sub tasks:
 
 ### [-] LocalStorageApi
 
-Implements `TaskListApi` using `shared_preferences` to allow storing and retrieval of tasks from mobile local storage.
+Implements `TaskListApi` using `db` to allow storing and retrieval of tasks.
+
+See: https://docs.flutter.dev/cookbook/persistence/sqlite
 
 Things to do:
 

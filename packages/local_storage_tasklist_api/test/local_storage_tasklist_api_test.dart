@@ -13,7 +13,7 @@ void main() {
     });
 
     test('Can get a stream of tasks', () async {
-      final result = StreamController<List<Task>>().stream;
+      final result = <Task>[];
 
       expect(localStorageApi.getTasks(), emits(result));
     });
