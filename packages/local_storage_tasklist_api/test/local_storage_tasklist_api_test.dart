@@ -1,16 +1,21 @@
+import 'dart:async';
+
 import 'package:local_storage_tasklist_api/local_storage_tasklist_api.dart';
+import 'package:tasklist_api/tasklist_api.dart';
 import 'package:test/test.dart';
 
 void main() {
   group('Local Storage Api', () {
-    final taskList = LocalStorageTaskListApi();
+      final localStorageApi = LocalStorageTaskListApi();
 
     setUp(() {
       // Additional setup goes here.
     });
 
-    test('can get a stream of tasks', () {
-      expect(taskList.getTasks(), returnsNormally);
+    test('Can get a stream of tasks', () async {
+      final result = StreamController<List<Task>>().stream;
+
+      expect(localStorageApi.getTasks(), emits(result));
     });
   });
 }
