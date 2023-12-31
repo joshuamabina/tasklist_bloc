@@ -1,11 +1,10 @@
-import 'dart:async';
 import 'package:tasklist_api/tasklist_api.dart';
 import 'package:test/test.dart';
 
 
 class TestTaskListApi extends TaskListApi {
-  Stream<List<Task>> getTasks() {
-    return StreamController<List<Task>>().stream;
+  List<Task> getTasks() {
+    return <Task>[];
   } 
 }
 

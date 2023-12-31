@@ -1,9 +1,8 @@
 import 'package:tasklist_api/tasklist_api.dart';
 
+/* TODO: Rename to DBApi */
 class LocalStorageTaskListApi extends TaskListApi {
   LocalStorageTaskListApi();
 
-  Stream<List<Task>> getTasks() {
-    /* return StreamController<List<Task>>().stream; */
-  }
+  List<Task> getTasks() => <Task>[];
 }
