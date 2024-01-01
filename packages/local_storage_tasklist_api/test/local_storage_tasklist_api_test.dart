@@ -11,7 +11,7 @@ void main() {
       // Additional setup goes here.
     });
 
-    test('Can get a stream of tasks', () async {
+    test('Can get a list of tasks', () {
       final result = <Task>[];
 
       expect(localStorageApi.getTasks(), equals(result));
