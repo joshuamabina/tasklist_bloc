@@ -18,6 +18,8 @@ dependencies:
     path: packages/tasklist_api
   local_storage_tasklist_api:
     path: packages/local_storage_tasklist_api
+  tasklist_repository:
+    path: packages/tasklist_repository
 
 dev_dependencies:
   flutter_test:
