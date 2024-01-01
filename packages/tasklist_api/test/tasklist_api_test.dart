@@ -10,9 +10,7 @@ class TestTaskListApi extends TaskListApi {
 
 void main() {
   group('Task List Api', () {
-      setUp(() {
-          // Additional setup goes here.
-          });
+      setUp(() {});
 
       test('Can be created', () {
           expect(TestTaskListApi.new, returnsNormally);
