@@ -6,10 +6,7 @@ See inspiration: https://ticktick.com
 
 ## Roadmap
 
-Current tasks:
-
-- [ ] Using BLoC architecture to split the codebase into smaller more manageable units of code - `feature -> domain -> data`.
-- [ ] Feature Layer: Cleanup existing UI code, removing `setState()` implementations and whatnot.
+Current tasks: use BLoC architecture - implement feature layer.
 
 Pending tasks:
 
