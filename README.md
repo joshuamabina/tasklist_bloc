@@ -6,18 +6,19 @@ See inspiration: https://ticktick.com
 
 ## Roadmap
 
-Current task: Using BLoC architecture to split the codebase into smaller more manageable units of code - `feature -> domain -> data`.
+Current tasks:
 
-- [-] Feature Layer: Cleanup existing UI code, removing `setState()` implementations and whatnot.
+- [ ] Using BLoC architecture to split the codebase into smaller more manageable units of code - `feature -> domain -> data`.
+- [ ] Feature Layer: Cleanup existing UI code, removing `setState()` implementations and whatnot.
+
+Pending tasks:
+
 - [ ] Implement storage with sqlite - https://docs.flutter.dev/cookbook/persistence/sqlite
 - [ ] Domain Layer: Create a `TaskListRepository` 
-
-Completed:
-
-- List all tasks
-- Create a new tasks
-- Mark task as complete
-- Add task description
+- [x] List all tasks
+- [x] Create a new tasks
+- [x] Mark task as complete
+- [x] Add task description
 
 Ideas, issues, note, and pending:
 
