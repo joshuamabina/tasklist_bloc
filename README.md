@@ -8,22 +8,9 @@ See inspiration: https://ticktick.com
 
 Current task: Using BLoC architecture to split the codebase into smaller more manageable units of code - `feature -> domain -> data`.
 
-Sub tasks:
-
-### [-] LocalStorageApi
-
-Implements `TaskListApi` using `db` to allow storing and retrieval of tasks.
-
-See: https://docs.flutter.dev/cookbook/persistence/sqlite
-
-Things to do:
-
-- Get task a stream of tasks
-- Initialize the tasklist with tasks, if already existing 
-- Initialize the tasklist with no tasks, if none are in existence 
-
+- [-] Feature Layer: Cleanup existing UI code, removing `setState()` implementations and whatnot.
+- [ ] Implement storage with sqlite - https://docs.flutter.dev/cookbook/persistence/sqlite
 - [ ] Domain Layer: Create a `TaskListRepository` 
-- [ ] Feature Layer: Cleanup existing UI code, removing `setState()` implementations and whatnot.
 
 Completed:
 
