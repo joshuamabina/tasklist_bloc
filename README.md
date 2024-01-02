@@ -6,9 +6,9 @@ See inspiration: https://ticktick.com
 
 ## Roadmap
 
-Current tasks: use BLoC architecture - implement feature layer.
+**Current tasks:** use BLoC architecture - implement feature layer.
 
-Pending tasks:
+**Pending tasks:**
 
 - [ ] Implement storage with sqlite - https://docs.flutter.dev/cookbook/persistence/sqlite
 - [ ] Domain Layer: Create a `TaskListRepository` 
